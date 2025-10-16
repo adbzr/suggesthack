@@ -1,0 +1,6 @@
+PyYAML>=6.0
+google-cloud-firestore>=2.16.0
+google-cloud-secret-manager>=2.20.0
+google-cloud-logging>=3.11.2
+functions-framework>=3.5.0
+requests>=2.32.2

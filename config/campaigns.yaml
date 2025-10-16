@@ -1,0 +1,22 @@
+project_name: "popads_automation"
+defaults:
+  bid: 0.0025
+  fixed_params:
+    geo: ["FR"]
+    device: "desktop"
+    frequency_cap: 1
+    category_blacklist: ["Adult"]
+campaigns:
+  - name: "Promo-LP1"
+    keywords: ["formation", "marketing"]
+    landing_page: "https://exemple.com/lp1"
+    bid: 0.003
+    audience_target:
+      metric: "impressions"
+      quota: 10000
+  - name: "Promo-LP2"
+    keywords: ["automation", "outil"]
+    landing_page: "https://exemple.com/lp2"
+    audience_target:
+      metric: "unique_visitors"
+      quota: 5000
